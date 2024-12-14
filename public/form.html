@@ -6,7 +6,10 @@
 </head>
 <body>
 <form action="/profile" method="post" enctype="multipart/form-data">
-    <input type="file" name="avatar"/>
+    <label for="name">Izena:</label>
+    <br>
+    <input type="text" name="name" required="true">
+    <input type="file" name="avatar" required="true" accept="image/*"/>
     <input type="submit">
 </form>
 </body>
